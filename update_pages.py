@@ -16,6 +16,9 @@ pages = {
             <li><strong>Veteran & Senior Discounts:</strong> Special appreciation rates for military veterans and senior citizens.</li>
             <li><strong>Flexible Scheduling:</strong> Same-day, weekly, bi-weekly, and monthly cleaning options available across Tampa, St. Petersburg, Clearwater, and Brandon.</li>
         </ul>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Comprehensive Cleaning Tailored to Your Schedule</h3>
+        <p class="mb-4">Maintaining a clean property requires consistent effort, proper equipment, and professional expertise. In a bustling region like Tampa Bay, homeowners and business managers often find themselves stretched thin between work, family, and leisure. That is where Sparkle & Sage steps in. We take the burden of heavy cleaning off your shoulders so you can focus on what matters most.</p>
+        <p class="mb-4">Our cleaning technicians arrive fully equipped with professional-grade, eco-friendly cleaning solutions and advanced tools designed to eliminate allergens, dust mites, grease, and grime. From delicate surface polishing to heavy-duty floor sanitization, we guarantee an immaculate environment that elevates your quality of life and business reputation.</p>
         <p class="mb-4">Ready to experience a truly pristine environment without the hassle? Text or call us anytime at <strong>(207) 838-3677</strong> to book your cleaning session today!</p>
         """
     },
@@ -46,6 +49,8 @@ pages = {
                 <p class="text-slate-600 text-sm">Interior windows, baseboard detailing, inside cabinets, and custom requests tailored to your home.</p>
             </div>
         </div>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Maintaining a Healthy Home Environment</h3>
+        <p class="mb-4">Dust, pollen, pet dander, and bacteria accumulate rapidly in Florida's warm, humid climate. Routine professional housekeeping is not just about aesthetics—it is a vital investment in your family's health and indoor air quality. Our systematic cleaning process targets hidden allergens and sanitizes high-touch surfaces effectively.</p>
         <p class="mb-4">We proudly offer reduced rates for senior citizens and military veterans throughout Tampa, St. Petersburg, Clearwater, and Brandon. Text us today at <strong>(207) 838-3677</strong> to schedule your residential clean!</p>
         """
     },
@@ -65,6 +70,8 @@ pages = {
             <li><strong>Breakrooms & Kitchenettes:</strong> Countertop detailing, sink sanitization, exterior appliance care, and floor cleaning.</li>
             <li><strong>Floor Care & Trash Removal:</strong> Daily vacuuming, hard floor mopping, and secure waste disposal.</li>
         </ul>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Why Cleanliness Drives Business Success</h3>
+        <p class="mb-4">First impressions dictate business partnerships and customer trust. A pristine office communicates professionalism, discipline, and attention to detail. Furthermore, reducing germs in the workplace directly decreases employee sick leave and boosts overall morale.</p>
         <p class="mb-4">Elevate your business environment with Tampa Bay's most dependable commercial cleaners. Contact us today at <strong>(207) 838-3677</strong> for a customized commercial cleaning plan.</p>
         """
     },
@@ -84,6 +91,8 @@ pages = {
             <li><strong>Supply Restocking:</strong> Refilling toilet paper, soap, shampoo, coffee, and guest welcome amenities.</li>
             <li><strong>Quality Inspection & Reporting:</strong> Detailed post-clean checks with photo updates and immediate reporting of any property damage.</li>
         </ul>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Maximizing Your Superhost Status</h3>
+        <p class="mb-4">Guest reviews on Airbnb and VRBO heavily mention cleanliness. Even a single speck of dust or unwashed linen can result in a 4-star review instead of 5 stars, directly impacting your algorithmic ranking and occupancy rates.</p>
         <p class="mb-4">Keep your ratings pristine and your guests thrilled. Text us at <strong>(207) 838-3677</strong> to partner with Tampa Bay's top short-term rental cleaning team.</p>
         """
     },
@@ -106,6 +115,8 @@ pages = {
                 <p class="text-slate-600 text-sm">We utilize safe, non-toxic cleaning products that protect your family, pets, and employees while delivering sparkling results.</p>
             </div>
         </div>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Dedicated to Excellence Across Tampa Bay</h3>
+        <p class="mb-4">Our journey began with a commitment to raise the bar for local cleaning companies. Too often, homeowners face unreliable contractors, hidden fees, or inconsistent cleaning quality. Sparkle & Sage was built to solve those exact pain points by offering absolute transparency, dependable communication, and superior workmanship.</p>
         <p class="mb-4">Serving Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities. Text or call us today at <strong>(207) 838-3677</strong> to discover the Sparkle & Sage difference.</p>
         """
     },
@@ -127,6 +138,9 @@ pages = {
             </a>
             <p class="text-xs text-slate-400 mt-6">Serving Tampa Bay, FL • Low Hourly Rates • Veteran & Senior Discounts</p>
         </div>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Get in Touch Today</h3>
+        <p class="mb-4">Whether you need a one-time deep clean before hosting guests, routine weekly housekeeping for your family residence, or ongoing commercial maintenance for your office space, our friendly team is ready to assist you. We respond promptly to all inquiries and ensure flexible scheduling around your busy routine.</p>
+        <p class="mb-4">Reach out via text or phone call at <strong>(207) 838-3677</strong> to discuss your cleaning requirements and lock in your appointment.</p>
         """
     },
     "faq.html": {
@@ -158,6 +172,9 @@ pages = {
                 <p class="text-slate-600 text-sm">Booking is fast and easy. Simply text or call us anytime at <strong>(207) 838-3677</strong> to reserve your slot.</p>
             </div>
         </div>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Additional Questions?</h3>
+        <p class="mb-4">If you have specific questions regarding specialized cleaning tasks, eco-friendly product requirements, or custom commercial service agreements, please do not hesitate to reach out. Our team is always happy to accommodate unique client needs.</p>
+        <p class="mb-4">Text or call us anytime at <strong>(207) 838-3677</strong> for immediate assistance.</p>
         """
     },
     "tampa.html": {
@@ -174,6 +191,8 @@ pages = {
             <li><strong>Veteran & Senior Discounts:</strong> Special appreciation rates for veterans and seniors across Tampa.</li>
             <li><strong>Flexible Scheduling:</strong> Weekly, bi-weekly, monthly, or same-day turnover services.</li>
         </ul>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Serving All Tampa Neighborhoods</h3>
+        <p class="mb-4">From historic bungalows in Seminole Heights to modern high-rises in Channelside and family estates in Carrollwood, our cleaning technicians understand the distinct architectural styles and cleaning challenges of Tampa properties. We bring professional equipment and eco-friendly supplies directly to your doorstep.</p>
         <p class="mb-4">Ready to keep your Tampa property looking its absolute best? Text or call us today at <strong>(207) 838-3677</strong>.</p>
         """
     },
@@ -191,6 +210,8 @@ pages = {
             <li><strong>Housekeeping & Deep Cleans:</strong> Comprehensive cleaning tailored to your family's unique needs.</li>
             <li><strong>Special Discounts:</strong> Honoring veterans and senior citizens with reduced cleaning rates.</li>
         </ul>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Immaculate Care for St. Pete Properties</h3>
+        <p class="mb-4">St. Petersburg is renowned for its arts culture, waterfront beauty, and active community. Maintaining a spotless home or rental here allows you to fully enjoy the Sunshine City lifestyle. Let our professionals handle the scrubbing, dusting, and polishing so you don't have to.</p>
         <p class="mb-4">For spotless results in St. Petersburg, text or call us today at <strong>(207) 838-3677</strong>.</p>
         """
     },
@@ -208,6 +229,8 @@ pages = {
             <li><strong>Reliable Residential Care:</strong> Routine housekeeping and deep cleans at fair hourly rates.</li>
             <li><strong>Community Discounts:</strong> Proudly offering veteran and senior citizen cleaning discounts.</li>
         </ul>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Combatting Coastal Elements</h3>
+        <p class="mb-4">Living near Clearwater's stunning coast means dealing with salt residue, humidity, and fine sand. Our specialized cleaning regimens protect your furniture, floors, and fixtures while keeping your indoor environment sparkling clean.</p>
         <p class="mb-4">Schedule your Clearwater clean today by texting or calling <strong>(207) 838-3677</strong>.</p>
         """
     },
@@ -225,6 +248,8 @@ pages = {
             <li><strong>Transparent Pricing:</strong> Low hourly rates with zero hidden fees.</li>
             <li><strong>Veteran & Senior Discounts:</strong> Special appreciation rates for those who served and seniors.</li>
         </ul>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Dedicated Service in East Tampa Bay</h3>
+        <p class="mb-4">Brandon families and businesses rely on us for punctual, thorough, and trustworthy cleaning services. We respect your property and your time, arriving fully prepared to transform your space into a sparkling showcase.</p>
         <p class="mb-4">Keep your Brandon property spotless. Text or call us today at <strong>(207) 838-3677</strong>.</p>
         """
     }
