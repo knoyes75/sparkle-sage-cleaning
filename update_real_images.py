@@ -34,7 +34,8 @@ for filename, (img1, img2, cap1, cap2) in dispersed_photos.items():
     </div>
     '''
     
-    content = re.sub(r'<div class="my-8 rounded-2xl.*?</div>\s*</div>', '', content, flags=re.DOTALL)
+        content = re.sub(r'<svg viewBox="0 0 800 450".*?</svg>', '', content, flags=re.DOTALL)
+content = re.sub(r'<div class="my-8 rounded-2xl.*?</div>\s*</div>', '', content, flags=re.DOTALL)
     
     parts = content.split('<main')
     if len(parts) == 2:
