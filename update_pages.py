@@ -5,7 +5,7 @@ pages = {
         "title": "Sparkle & Sage Cleaning Services | Tampa Bay, FL",
         "desc": "Top-rated residential, commercial, and Airbnb cleaning services across Tampa Bay, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Pristine Cleaning for Homes, Rentals & Businesses in Tampa Bay",
-        "img": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-home.jpg",
         "content": """
         <p class="mb-4 text-lg">Welcome to Sparkle & Sage Cleaning Services, your premier partner for professional cleaning throughout the Tampa Bay area. Whether you manage a bustling residential household, a commercial office space, or a 5-star short-term rental property, our dedicated team delivers meticulous attention to detail and sparkling results every single time.</p>
         <p class="mb-4">We understand that finding a trustworthy and reliable cleaning service in Tampa Bay can be challenging. That is why we pride ourselves on absolute dependability, transparent low hourly rates, and personalized care tailored to your exact needs. Furthermore, we deeply value those who have served our nation and our senior community, offering special discounted cleaning rates for veterans and senior citizens.</p>
@@ -23,7 +23,7 @@ pages = {
         "title": "Residential House Cleaning Services | Sparkle & Sage Tampa Bay",
         "desc": "Professional residential cleaning, deep cleans, and routine housekeeping in Tampa Bay, FL. Veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Expert Residential & House Cleaning in Tampa Bay",
-        "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-residential.jpg",
         "content": """
         <p class="mb-4 text-lg">Your home should be your sanctuary—a clean, peaceful, and rejuvenating space where you can relax with family. At Sparkle & Sage, our professional residential cleaning services take the burden of housework off your shoulders, giving you back your precious weekends across Tampa Bay.</p>
         <p class="mb-4">From routine weekly housekeeping to thorough seasonal deep cleans, our experienced cleaners sanitize every corner of your living spaces. We utilize eco-friendly, family-safe cleaning agents combined with meticulous techniques to ensure your kitchen, bathrooms, bedrooms, and living areas shine.</p>
@@ -53,7 +53,7 @@ pages = {
         "title": "Commercial & Office Cleaning Services | Sparkle & Sage Tampa Bay",
         "desc": "Professional commercial office and workspace cleaning in Tampa Bay, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Professional Commercial & Office Cleaning in Tampa Bay",
-        "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-commercial.jpg",
         "content": """
         <p class="mb-4 text-lg">A clean and sanitary commercial workspace is essential for employee productivity, health, and making an unforgettable impression on visiting clients. Sparkle & Sage provides top-tier commercial cleaning and office maintenance services tailored to businesses across the Tampa Bay area.</p>
         <p class="mb-4">Whether you manage a corporate office suite, retail storefront, medical facility, or coworking hub, our professional cleaning team works around your operational hours to deliver impeccable results with zero disruption to your daily workflow.</p>
@@ -72,7 +72,7 @@ pages = {
         "title": "Airbnb & Vacation Rental Turnover | Sparkle & Sage Tampa Bay",
         "desc": "Reliable Airbnb and vacation rental turnover cleaning in Tampa Bay, FL. Fast turnaround, pristine results. Text (207) 838-3677.",
         "heading": "Airbnb & Vacation Rental Turnover Cleaning in Tampa Bay",
-        "img": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-airbnb.jpg",
         "content": """
         <p class="mb-4 text-lg">In the competitive world of short-term rentals, 5-star cleanliness reviews are everything. Sparkle & Sage specializes in rapid, meticulous Airbnb and vacation rental turnover cleaning across Tampa Bay, ensuring every guest walks into a spotless, welcoming oasis.</p>
         <p class="mb-4">We coordinate seamlessly with your booking calendar to execute fast guest-to-guest turnovers. From deep sanitization and luxurious bed staging to supply restocking and detailed damage inspections, we protect your superhost status and maximize your rental revenue.</p>
@@ -91,7 +91,7 @@ pages = {
         "title": "About Us | Sparkle & Sage Tampa Bay Cleaning",
         "desc": "Learn about Sparkle & Sage Cleaning Services in Tampa Bay, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "About Sparkle & Sage Cleaning Services",
-        "img": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-home.jpg",
         "content": """
         <p class="mb-4 text-lg">Sparkle & Sage was founded on a simple yet powerful premise: everyone in Tampa Bay deserves a pristine, healthy living and working environment without paying exorbitant prices. We combine meticulous cleaning standards with honest, transparent, low hourly rates.</p>
         <p class="mb-4">Our professional cleaning team is handpicked, thoroughly vetted, and deeply dedicated to excellence. We treat every client's property with the utmost respect and care, building lasting relationships based on trust, consistency, and exceptional results.</p>
@@ -113,7 +113,7 @@ pages = {
         "title": "Contact Us | Sparkle & Sage Tampa Bay Cleaning",
         "desc": "Contact Sparkle & Sage Cleaning Services in Tampa Bay, FL. Text or call (207) 838-3677 to book your clean today.",
         "heading": "Contact & Booking - Sparkle & Sage",
-        "img": "https://images.unsplash.com/photo-1423784346385-c1d4dac9093a?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-home.jpg",
         "content": """
         <p class="mb-4 text-lg">Ready to experience a sparkling clean home, office, or vacation rental in Tampa Bay? We make scheduling simple and straightforward. Please text or call us anytime!</p>
         <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 text-center my-8 max-w-2xl mx-auto">
@@ -133,7 +133,7 @@ pages = {
         "title": "Frequently Asked Questions | Sparkle & Sage Tampa Bay",
         "desc": "Answers to common cleaning service questions in Tampa Bay, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Frequently Asked Questions",
-        "img": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-home.jpg",
         "content": """
         <p class="mb-4 text-lg">Have questions about our cleaning services, pricing structure, or scheduling across Tampa Bay? Find clear answers to our most frequently asked questions below.</p>
         <div class="space-y-6 my-8">
@@ -164,7 +164,7 @@ pages = {
         "title": "Cleaning Services in Tampa, FL | Sparkle & Sage",
         "desc": "Top-rated residential, commercial, and Airbnb cleaning services in Tampa, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Professional Cleaning Services in Tampa, FL",
-        "img": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-tampa.jpg",
         "content": """
         <p class="mb-4 text-lg">Welcome to Sparkle & Sage Tampa, your trusted local experts for residential housekeeping, commercial office maintenance, and short-term rental turnovers throughout Tampa, Florida.</p>
         <p class="mb-4">Tampa is a vibrant, fast-growing city where homes and businesses deserve immaculate care. Whether you reside in South Tampa, Hyde Park, New Tampa, or downtown, our professional cleaners deliver dependable, high-quality results at low hourly rates.</p>
@@ -181,7 +181,7 @@ pages = {
         "title": "Cleaning Services in St. Petersburg, FL | Sparkle & Sage",
         "desc": "Professional residential, commercial, and Airbnb cleaning services in St. Petersburg, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Professional Cleaning Services in St. Petersburg, FL",
-        "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-tampa.jpg",
         "content": """
         <p class="mb-4 text-lg">Sparkle & Sage provides top-rated residential, commercial, and vacation rental cleaning services across St. Petersburg, Florida.</p>
         <p class="mb-4">From coastal beach bungalows to downtown St. Pete condos and bustling commercial offices, our experienced cleaning team delivers sparkling results. We pride ourselves on reliability, transparent pricing, and exceptional customer care.</p>
@@ -198,7 +198,7 @@ pages = {
         "title": "Cleaning Services in Clearwater, FL | Sparkle & Sage",
         "desc": "Professional residential, commercial, and Airbnb cleaning services in Clearwater, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Professional Cleaning Services in Clearwater, FL",
-        "img": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-tampa.jpg",
         "content": """
         <p class="mb-4 text-lg">Discover premier residential and vacation rental cleaning services in Clearwater, Florida, brought to you by Sparkle & Sage.</p>
         <p class="mb-4">Clearwater properties—from beachside rentals to suburban family homes—require specialized care to combat sand, humidity, and salt air. Our professional cleaners ensure your spaces remain impeccably fresh, sanitized, and inviting year-round.</p>
@@ -215,7 +215,7 @@ pages = {
         "title": "Cleaning Services in Brandon, FL | Sparkle & Sage",
         "desc": "Professional residential, commercial, and Airbnb cleaning services in Brandon, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.",
         "heading": "Professional Cleaning Services in Brandon, FL",
-        "img": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+        "img": "images/hero-tampa.jpg",
         "content": """
         <p class="mb-4 text-lg">Sparkle & Sage delivers expert residential and commercial cleaning services throughout Brandon, Florida and surrounding East Tampa Bay communities.</p>
         <p class="mb-4">We help Brandon homeowners and business operators maintain immaculate environments without the stress. From thorough kitchen and bathroom detailing to office sanitization, our team handles it all with professional precision.</p>
@@ -332,7 +332,7 @@ for filename, data in pages.items():
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 {nav_html}
     <section class="relative bg-slate-900 text-white py-28 px-4 overflow-hidden">
-        <div class="absolute inset-0 z-0 opacity-30">
+        <div class="absolute inset-0 z-0 opacity-40">
             <img src="{data['img']}" alt="{data['heading']}" class="w-full h-full object-cover">
         </div>
         <div class="max-w-4xl mx-auto text-center relative z-10">
