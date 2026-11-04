@@ -14,7 +14,7 @@ dispersed_photos = {
     "brandon.html": ('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80', 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80', 'Brandon Residences', 'East Tampa Bay Care')
 }
 
-os.chdir('/home/knoyes75/sparkle-sage-site')
+# os.chdir('/home/knoyes75/sparkle-sage-site')
 
 for filename, (img1, img2, cap1, cap2) in dispersed_photos.items():
     if not os.path.exists(filename): continue
