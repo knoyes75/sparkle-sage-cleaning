@@ -10,6 +10,7 @@
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
+    
     <header class="bg-emerald-900 text-white sticky top-0 z-50 shadow-lg">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <a href="index.html" class="flex items-center space-x-2">
@@ -24,10 +25,18 @@
                 <a href="residential.html" class="hover:text-amber-300 transition">Residential</a>
                 <a href="commercial.html" class="hover:text-amber-300 transition">Commercial</a>
                 <a href="airbnb.html" class="hover:text-amber-300 transition">Airbnb</a>
-                <a href="tampa.html" class="hover:text-amber-300 transition">Tampa</a>
-                <a href="st-petersburg.html" class="hover:text-amber-300 transition">St. Pete</a>
-                <a href="clearwater.html" class="hover:text-amber-300 transition">Clearwater</a>
-                <a href="brandon.html" class="hover:text-amber-300 transition">Brandon</a>
+                <!-- Locations Dropdown -->
+                <div class="relative group">
+                    <button class="hover:text-amber-300 transition inline-flex items-center focus:outline-none py-2">
+                        Locations <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-0 w-48 bg-emerald-950 rounded-xl shadow-xl py-2 hidden group-hover:block border border-emerald-800">
+                        <a href="tampa.html" class="block px-4 py-2 text-sm text-white hover:bg-emerald-900">Tampa, FL</a>
+                        <a href="st-petersburg.html" class="block px-4 py-2 text-sm text-white hover:bg-emerald-900">St. Petersburg, FL</a>
+                        <a href="clearwater.html" class="block px-4 py-2 text-sm text-white hover:bg-emerald-900">Clearwater, FL</a>
+                        <a href="brandon.html" class="block px-4 py-2 text-sm text-white hover:bg-emerald-900">Brandon, FL</a>
+                    </div>
+                </div>
                 <a href="faq.html" class="hover:text-amber-300 transition">FAQ</a>
                 <a href="about.html" class="hover:text-amber-300 transition">About</a>
                 <a href="contact.html" class="hover:text-amber-300 transition">Contact</a>
@@ -45,10 +54,13 @@
             <a href="residential.html" class="block text-white hover:text-amber-300">Residential</a>
             <a href="commercial.html" class="block text-white hover:text-amber-300">Commercial</a>
             <a href="airbnb.html" class="block text-white hover:text-amber-300">Airbnb</a>
-            <a href="tampa.html" class="block text-white hover:text-amber-300">Tampa</a>
-            <a href="st-petersburg.html" class="block text-white hover:text-amber-300">St. Petersburg</a>
-            <a href="clearwater.html" class="block text-white hover:text-amber-300">Clearwater</a>
-            <a href="brandon.html" class="block text-white hover:text-amber-300">Brandon</a>
+            <div class="pl-4 space-y-2 border-l border-emerald-800">
+                <span class="text-xs text-amber-300 uppercase tracking-wider block">Locations</span>
+                <a href="tampa.html" class="block text-white hover:text-amber-300">Tampa, FL</a>
+                <a href="st-petersburg.html" class="block text-white hover:text-amber-300">St. Petersburg, FL</a>
+                <a href="clearwater.html" class="block text-white hover:text-amber-300">Clearwater, FL</a>
+                <a href="brandon.html" class="block text-white hover:text-amber-300">Brandon, FL</a>
+            </div>
             <a href="faq.html" class="block text-white hover:text-amber-300">FAQ</a>
             <a href="about.html" class="block text-white hover:text-amber-300">About</a>
             <a href="contact.html" class="block text-white hover:text-amber-300">Contact</a>
@@ -59,6 +71,7 @@
             document.getElementById('mobile-menu').classList.toggle('hidden');
         });
     </script>
+
 
     <section class="relative bg-slate-900 text-white py-28 px-4 overflow-hidden">
         <div class="absolute inset-0 z-0 opacity-40">
