@@ -7,18 +7,9 @@
     <meta name="description" content="Top-rated residential, commercial, and Airbnb cleaning services across Tampa Bay, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CleaningService",
-      "name": "Sparkle & Sage Cleaning Services",
-      "areaServed": "Tampa Bay, FL",
-      "telephone": "+1-207-838-3677",
-      "priceRange": "$"
-    }
-    </script>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
     <header class="bg-emerald-900 text-white sticky top-0 z-50 shadow-lg">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <a href="index.html" class="flex items-center space-x-2">
@@ -28,34 +19,60 @@
                     <span class="text-xs text-emerald-300 uppercase tracking-widest">Tampa Bay Cleaning</span>
                 </div>
             </a>
-            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
-                <a href="index.html" class="text-amber-300">Home</a>
+            <nav class="hidden lg:flex items-center space-x-5 text-sm font-medium">
+                <a href="index.html" class="hover:text-amber-300 transition">Home</a>
                 <a href="residential.html" class="hover:text-amber-300 transition">Residential</a>
                 <a href="commercial.html" class="hover:text-amber-300 transition">Commercial</a>
                 <a href="airbnb.html" class="hover:text-amber-300 transition">Airbnb</a>
+                <a href="tampa.html" class="hover:text-amber-300 transition">Tampa</a>
+                <a href="st-petersburg.html" class="hover:text-amber-300 transition">St. Pete</a>
+                <a href="clearwater.html" class="hover:text-amber-300 transition">Clearwater</a>
+                <a href="brandon.html" class="hover:text-amber-300 transition">Brandon</a>
                 <a href="faq.html" class="hover:text-amber-300 transition">FAQ</a>
                 <a href="about.html" class="hover:text-amber-300 transition">About</a>
                 <a href="contact.html" class="hover:text-amber-300 transition">Contact</a>
-                <a href="sms:2078383677" class="bg-amber-400 text-slate-900 px-4 py-2 rounded-xl font-bold hover:bg-amber-300 transition">
-                    <i class="fa-solid fa-phone mr-2"></i> (207) 838-3677
+                <a href="sms:2078383677" class="bg-amber-400 text-slate-900 px-3 py-2 rounded-xl font-bold hover:bg-amber-300 transition">
+                    <i class="fa-solid fa-phone mr-1"></i> (207) 838-3677
                 </a>
             </nav>
+            <div class="flex lg:hidden items-center space-x-3">
+                <a href="sms:2078383677" class="bg-amber-400 text-slate-900 px-3 py-1.5 rounded-lg text-sm font-bold"><i class="fa-solid fa-phone"></i></a>
+                <button id="menu-btn" class="text-white text-2xl focus:outline-none"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden bg-emerald-950 px-4 pt-2 pb-6 space-y-3 border-t border-emerald-800 text-sm">
+            <a href="index.html" class="block text-white hover:text-amber-300">Home</a>
+            <a href="residential.html" class="block text-white hover:text-amber-300">Residential</a>
+            <a href="commercial.html" class="block text-white hover:text-amber-300">Commercial</a>
+            <a href="airbnb.html" class="block text-white hover:text-amber-300">Airbnb</a>
+            <a href="tampa.html" class="block text-white hover:text-amber-300">Tampa</a>
+            <a href="st-petersburg.html" class="block text-white hover:text-amber-300">St. Petersburg</a>
+            <a href="clearwater.html" class="block text-white hover:text-amber-300">Clearwater</a>
+            <a href="brandon.html" class="block text-white hover:text-amber-300">Brandon</a>
+            <a href="faq.html" class="block text-white hover:text-amber-300">FAQ</a>
+            <a href="about.html" class="block text-white hover:text-amber-300">About</a>
+            <a href="contact.html" class="block text-white hover:text-amber-300">Contact</a>
         </div>
     </header>
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
 
-    <section class="relative bg-slate-900 text-white py-32 px-4 overflow-hidden">
+    <section class="relative bg-slate-900 text-white py-28 px-4 overflow-hidden">
         <div class="absolute inset-0 z-0 opacity-30">
-            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80" alt="Pristine Living Room Cleaning" class="w-full h-full object-cover">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80" alt="Pristine Cleaning for Homes, Rentals & Businesses in Tampa Bay" class="w-full h-full object-cover">
         </div>
         <div class="max-w-4xl mx-auto text-center relative z-10">
             <span class="bg-emerald-600/30 text-emerald-300 border border-emerald-500/30 px-4 py-1.5 rounded-full text-sm font-semibold inline-block mb-6">
                 🌴 Tampa Bay's Trusted Cleaning Professionals
             </span>
             <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6">
-                Pristine Cleaning for Homes, Rentals & Businesses
+                Pristine Cleaning for Homes, Rentals & Businesses in Tampa Bay
             </h1>
-            <p class="text-xl text-slate-300 max-w-2xl mx-auto mb-10">
-                Low hourly rates, dependable service, and special discounts for veterans and senior citizens across Tampa Bay.
+            <p class="text-xl text-slate-300 max-w-2xl mx-auto mb-8">
+                Top-rated residential, commercial, and Airbnb cleaning services across Tampa Bay, FL. Low hourly rates, veteran & senior discounts. Text (207) 838-3677.
             </p>
             <div>
                 <a href="sms:2078383677" class="bg-amber-400 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-amber-300 transition shadow-lg inline-flex items-center justify-center">
@@ -65,48 +82,54 @@
         </div>
     </section>
 
-    <section class="py-20 max-w-7xl mx-auto px-4">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold text-slate-900 mb-2">Our Specialized Cleaning Services</h2>
-            <p class="text-slate-600">Select a service below to explore our comprehensive Tampa Bay cleaning solutions.</p>
+    <main class="py-16 max-w-4xl mx-auto px-4 leading-relaxed text-slate-700">
+        <div class="bg-white p-8 sm:p-12 rounded-3xl shadow-sm border border-slate-200">
+            
+        <p class="mb-4 text-lg">Welcome to Sparkle & Sage Cleaning Services, your premier partner for professional cleaning throughout the Tampa Bay area. Whether you manage a bustling residential household, a commercial office space, or a 5-star short-term rental property, our dedicated team delivers meticulous attention to detail and sparkling results every single time.</p>
+        <p class="mb-4">We understand that finding a trustworthy and reliable cleaning service in Tampa Bay can be challenging. That is why we pride ourselves on absolute dependability, transparent low hourly rates, and personalized care tailored to your exact needs. Furthermore, we deeply value those who have served our nation and our senior community, offering special discounted cleaning rates for veterans and senior citizens.</p>
+        <h3 class="text-2xl font-bold mt-8 mb-4 text-slate-900">Why Tampa Bay Chooses Sparkle & Sage</h3>
+        <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Uncompromising Quality:</strong> Every clean is performed to the highest standard, ensuring dust-free surfaces, sanitized bathrooms, and spotless floors.</li>
+            <li><strong>Affordable Hourly Rates:</strong> Premium cleaning services priced fairly to fit your monthly or weekly budget.</li>
+            <li><strong>Veteran & Senior Discounts:</strong> Special appreciation rates for military veterans and senior citizens.</li>
+            <li><strong>Flexible Scheduling:</strong> Same-day, weekly, bi-weekly, and monthly cleaning options available across Tampa, St. Petersburg, Clearwater, and Brandon.</li>
+        </ul>
+        <p class="mb-4">Ready to experience a truly pristine environment without the hassle? Text or call us anytime at <strong>(207) 838-3677</strong> to book your cleaning session today!</p>
+        
         </div>
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Residential Cleaning" class="h-48 w-full object-cover">
-                <div class="p-6 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-bold text-xl mb-2">Residential Cleaning</h3>
-                        <p class="text-slate-600 text-sm mb-4">Routine housekeeping, deep cleans, and thorough room care for family homes.</p>
-                    </div>
-                    <a href="residential.html" class="text-emerald-700 font-semibold hover:underline inline-flex items-center">Learn More <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
-                </div>
-            </div>
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" alt="Commercial Cleaning" class="h-48 w-full object-cover">
-                <div class="p-6 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-bold text-xl mb-2">Commercial Cleaning</h3>
-                        <p class="text-slate-600 text-sm mb-4">Professional office and workspace maintenance to keep your business spotless.</p>
-                    </div>
-                    <a href="commercial.html" class="text-emerald-700 font-semibold hover:underline inline-flex items-center">Learn More <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
-                </div>
-            </div>
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-                <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Airbnb Turnover" class="h-48 w-full object-cover">
-                <div class="p-6 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-bold text-xl mb-2">Airbnb & Rentals</h3>
-                        <p class="text-slate-600 text-sm mb-4">Fast, meticulous turnover services and restocking for 5-star host reviews.</p>
-                    </div>
-                    <a href="airbnb.html" class="text-emerald-700 font-semibold hover:underline inline-flex items-center">Learn More <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </main>
 
-    <footer class="bg-slate-900 text-slate-400 py-12 px-4 text-center text-sm border-t border-slate-800">
-        <p>© Sparkle & Sage Cleaning Services. Serving Tampa Bay, FL.</p>
-        <p class="mt-2 text-slate-500">Residential • Commercial • Airbnb • Rentals • Veteran & Senior Discounts</p>
+    <footer class="bg-slate-900 text-slate-400 py-12 px-4 text-center text-sm border-t border-slate-800 mt-16">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 mb-8 text-left">
+            <div>
+                <h4 class="text-white font-bold mb-3">Sparkle & Sage</h4>
+                <p class="text-xs text-slate-400">Professional cleaning services across Tampa Bay, FL. Low hourly rates, veteran & senior discounts.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">Services</h4>
+                <ul class="space-y-1 text-xs">
+                    <li><a href="residential.html" class="hover:text-white">Residential Cleaning</a></li>
+                    <li><a href="commercial.html" class="hover:text-white">Commercial Cleaning</a></li>
+                    <li><a href="airbnb.html" class="hover:text-white">Airbnb & Rentals</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">Service Areas</h4>
+                <ul class="space-y-1 text-xs">
+                    <li><a href="tampa.html" class="hover:text-white">Tampa, FL</a></li>
+                    <li><a href="st-petersburg.html" class="hover:text-white">St. Petersburg, FL</a></li>
+                    <li><a href="clearwater.html" class="hover:text-white">Clearwater, FL</a></li>
+                    <li><a href="brandon.html" class="hover:text-white">Brandon, FL</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">Book Now</h4>
+                <p class="text-xs text-slate-400 mb-2">Text or call anytime:</p>
+                <a href="sms:2078383677" class="text-amber-400 font-bold text-base">(207) 838-3677</a>
+            </div>
+        </div>
+        <p class="border-t border-slate-800 pt-6 text-xs">© Sparkle & Sage Cleaning Services. Serving Tampa Bay, FL.</p>
     </footer>
+
 </body>
 </html>
