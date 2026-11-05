@@ -19,6 +19,7 @@ os.chdir(ROOT)
 
 P = lambda f, alt, cap: ("photo", f, alt, cap)
 G = lambda name, cap: ("svg", name, cap)
+O = lambda f, name, role: ("owner", f, name, role)
 
 PAGES = {
     "index.html": dict(hero=("hero-home.jpg", "Bright, freshly cleaned Tampa Bay living room and kitchen"), slots=[
@@ -38,7 +39,7 @@ PAGES = {
         P("air-2.jpg", "Clean vacation rental living room with pool lanai in Tampa Bay", "Guest-Ready Living Spaces"),
     ]),
     "about.html": dict(hero=None, slots=[
-        P("loc-2.jpg", "Sparkle & Sage Cleaning Services team in Tampa Bay", "Tampa Bay Team"),
+        O("echo-downs-owner.jpg", "Echo Downs", "Owner, Sparkle &amp; Sage Cleaning Services"),
         G("values", "What we stand for"),
     ]),
     "contact.html": dict(hero=None, slots=[
@@ -70,6 +71,15 @@ PHOTO_FIG = '''
         <figure class="sage-photo my-8 rounded-2xl overflow-hidden shadow-md border border-slate-200">
             <img src="images/{f}" alt="{alt}" width="1200" height="670" loading="lazy" decoding="async" class="w-full h-72 object-cover">
             <figcaption class="p-3 bg-white text-center text-sm font-semibold text-emerald-800">{cap}</figcaption>
+        </figure>'''
+OWNER_FIG = '''
+        <figure class="sage-photo my-8 flex flex-col sm:flex-row items-center gap-6 bg-emerald-50 rounded-2xl p-6 border border-emerald-100">
+            <img src="images/{f}" alt="{name}, owner of Sparkle &amp; Sage Cleaning Services in Tampa Bay" width="600" height="803" loading="lazy" decoding="async" class="w-40 h-52 sm:w-48 sm:h-60 object-cover object-top rounded-2xl shadow-md border-4 border-white shrink-0">
+            <figcaption class="text-center sm:text-left">
+                <span class="block text-xs font-bold uppercase tracking-wider text-emerald-700">Meet the Owner</span>
+                <span class="block mt-1 text-2xl font-extrabold text-slate-900">{name}</span>
+                <span class="block mt-1 text-sm font-semibold text-slate-600">{role}</span>
+            </figcaption>
         </figure>'''
 SVG_FIG = '''
         <figure class="sage-graphic my-8">
@@ -116,7 +126,10 @@ for page, cfg in PAGES.items():
     head, sep, main = html.partition("<main")
     paras = main.split("</p>")
     for idx, slot in zip((1, 4), cfg["slots"]):
-        if slot[0] == "photo":
+        if slot[0] == "owner":
+            used[slot[1]] += 1
+            block = OWNER_FIG.format(f=slot[1], name=slot[2], role=slot[3])
+        elif slot[0] == "photo":
             if not has(slot[1]):
                 missing.append(slot[1])
                 continue
