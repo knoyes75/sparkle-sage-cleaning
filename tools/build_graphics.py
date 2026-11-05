@@ -26,7 +26,7 @@ FONT = "style=\"font-family:inherit\""
 
 
 def svg_open(w, h, title, desc, ident):
-    return (f'<svg viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img" '
+    return (f'<svg viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{escape(title)}" '
             f'aria-labelledby="{ident}-t {ident}-d" class="w-full h-auto block" {FONT}>'
             f'<title id="{ident}-t">{escape(title)}</title><desc id="{ident}-d">{escape(desc)}</desc>')
 
